@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+.bg{
+    max-height: 100vh;
+    max-width: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    
+}
+.head{
+    max-width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin: 0;
+    background-color: aliceblue;
+    padding: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.head nav ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.head li a{
+    text-decoration: none;
+    color: black;
+}
+.head li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.contant1{
+    text-align: center;
+    background-color: rgb(230, 229, 228);
+    padding: 80px;
+}
+.contant1 h1{
+    font-size: 70px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.contant1 p{
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+.but1 {
+    background-color: rgb(221, 183, 12);
+    padding: 18px 35px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.but2{
+    padding: 14px 25px;
+    background-color: rgb(230, 229, 228);
+    margin-left: 10px;
+    border: solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a:hover, a:active {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.mountain{
+    background-color: rgb(230, 229, 228);
+    background-image: url(background.png);
+}
+.center1{
+    background-color: rgb(230, 229, 228);
+    height: 800px;
+}
+.center1 img{
+    padding-left: 100px;
+    padding-top: 90px;   
+}
+.contant2{
+    position: absolute;
+    left: 730px;
+    top: 1030px;
+}
+.contant2 h1{
+    font-size: 50px;
+}
+.contant2 p{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    line-height: 30px;
+    width: 560px;
+}
+.contant3{
+    width: 600px;
+    margin: 50px;
+}
+.contant3 p{
+    padding-bottom: 50px;
+    padding-top: 10px;
+    line-height: 25px;
+}
+.contant3 h1{
+    font-size: 50px;
+}
+.center2{
+    position: absolute;
+    left: 730px;
+    top: 1780px;
+}
+.center3{
+    background-color: black;
+    height: 780px;
+}
+.center3 img{
+    padding-left: 100px;
+    padding-top: 90px;  
+}
+.contant4{
+    position: absolute;
+    left: 730px;
+    top: 2410px;
+    color: white;
+}
+.contant4 p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    line-height: 25px;
+    width: 600px;
+}
+.contant4 h1{
+    font-size: 50px;
+}
+.contant5{
+    margin: 60px;
+    cursor: pointer;
+}
+.contant5 h1{
+    font-size: 50px;
+    padding-bottom: 40px;
+    cursor: auto;
+}
+.secondimg2{
+    padding-left: 20px;
+}
+.bbb{
+    background-color: rgb(230, 229, 228);
+    display: flex;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 100px;
+    height: 360px;
+}
+.profile1{
+    padding: 20px;
+}
+.profile2{
+    padding: 20px;
+}
+.profile3{
+    padding: 20px;
+}
+.profile1 p{
+    text-align-last: justify;
+    padding-top: 20px;
+    padding-left: 70px;
+    line-height: 30px;
+}
+.profile1 h4 {
+    padding-top: 30px;
+}
+.profile2 p{
+    text-align-last: justify;
+    padding-top: 20px;
+    padding-left: 70px;
+    line-height: 30px;
+}
+.profile2 h4 {
+    padding-top: 30px;
+}
+.profile3 p{
+    text-align-last: justify;
+    padding-top: 20px;
+    padding-left: 70px;
+    line-height: 30px;
+}
+.profile3 h4 {
+    padding-top: 30px;
+}
+.contant6{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 700px;
+}
+.contant6 h1{
+    padding-top: 200px;
+    font-size: 50px;
+}
+.contant6 p{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    line-height: 30px;
+}
+.contant7{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contant8{
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
